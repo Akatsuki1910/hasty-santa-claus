@@ -1,0 +1,30 @@
+{
+  "name": "hasty-santa-claus",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build manifest.json --no-source-maps --no-content-hash",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akatsuki1910/hasty-santa-claus.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Akatsuki1910/hasty-santa-claus/issues"
+  },
+  "homepage": "https://github.com/Akatsuki1910/hasty-santa-claus#readme",
+  "devDependencies": {
+    "@parcel/config-webextension": "^2.8.0",
+    "@parcel/resolver-glob": "^2.8.0",
+    "@types/chrome": "^0.0.203",
+    "parcel": "^2.8.0"
+  },
+  "dependencies": {
+    "@parcel/config-default": "^2.8.0",
+    "@parcel/transformer-image": "^2.8.0"
+  }
+}

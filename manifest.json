@@ -1,0 +1,10 @@
+{
+  "name": "hasty-santa-claus",
+  "description": "hasty-santa-claus",
+  "version": "1.0",
+  "manifest_version": 3,
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "src/index.html"
+  }
+}
