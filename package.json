@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build manifest.json --no-source-maps --no-content-hash",
+    "build": "parcel build src/index.html",
+    "build:extension": "parcel build manifest.json --no-source-maps --no-content-hash",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
